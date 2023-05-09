@@ -1,9 +1,8 @@
-# pixi-workshop-yggdrasil
-Workshop template for pixi yggdrasil workshop
-
-
+### source: yggdrasil
 
 --
+
+## Ideas (if to ever use) maybe?:
 
 - use in combination of canvas stream (?)
 - like favicon endless stream reload (?)
@@ -11,14 +10,12 @@ Workshop template for pixi yggdrasil workshop
 or corrupt local service workers, those of (any) extension in browser, and/or change local assets like browser 404 error images or chrome dino game:
 - change local and/or browser assets by adapting metadata of it
 - in canvas and/or color streaming by blurs/alpha/coloring
-- by recaching them out of the supposed context (?)
 - make never load or extreme slow load of some (browser)/worker assets, which will disable some very important security rules regarding cache
+- recaching them out of the supposed context (?)
+- CSP violation abuse, unload page abuse (cancelation)
 
 
-
---
-
-
+## In commbination with imageproxy.js (yggdrasil/goodboydigital):
 
 index.html
 ```html
