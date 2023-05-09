@@ -12,10 +12,12 @@ or corrupt local service workers, those of (any) extension in browser, and/or ch
 - in canvas and/or color streaming by blurs/alpha/coloring
 - make never load or extreme slow load of some (browser)/worker assets, which will disable some very important security rules regarding cache
 - recaching them out of the supposed context (?)
+- dynamically create qr code patterns (?)
+- load simple malicious favicon in every page to width: 0% and serve background PDF (if browser kept pdf extension auto enabled), background page canvas (?)
 - CSP violation abuse, unload page abuse (cancelation)
+- clickjack using fake permission banners
 
-
-## In commbination with imageproxy.js (yggdrasil/goodboydigital):
+## In combination with imageproxy.js (yggdrasil/goodboydigital):
 
 index.html
 ```html
